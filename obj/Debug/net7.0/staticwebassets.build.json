@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "3+idy18se+6N8XaD5R1REcq6U15Jkwt9o1NGx+ITqAg=",
+  "Source": "Kursach",
+  "BasePath": "_content/Kursach",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Kursach\\wwwroot",
+      "Source": "Kursach",
+      "ContentRoot": "C:\\Users\\Illia\\Desktop\\Kursach\\Kursach\\Kursach\\wwwroot\\",
+      "BasePath": "_content/Kursach",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Illia\\Desktop\\Kursach\\Kursach\\Kursach\\wwwroot\\favicon.ico",
+      "SourceId": "Kursach",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Illia\\Desktop\\Kursach\\Kursach\\Kursach\\wwwroot\\",
+      "BasePath": "_content/Kursach",
+      "RelativePath": "favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+﻿@model Kursach.Models.Domain.Company
+@{
+    //Layout = "_Layout";
+}
+<div class="d-flex justify-content-center mt-5">
+    <div class="card p-5" style="width: 50%">
+        <form asp-action="EditCompany">
+            <input asp-for="Id" type="hidden" class="form-control">
+            <h2 class="mb-4">Edit Company</h2>
+            <div class="mb-3">
+                <label asp-for="Name" class="form-label">Name</label>
+                <input asp-for="Name" type="text" class="form-control">
+                <span class="text-danger" asp-validation-for="Name"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Description" class="form-label">Description</label>
+                <<input asp-for="Description" type="text" class="form-control">
+                <span class="text-danger" asp-validation-for="Description"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Country" class="form-label">Country</label>
+                <input asp-for="Country" type="text" class="form-control">
+                <span class="text-danger" asp-validation-for="Country"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Field" class="form-label">Field</label>
+                <input asp-for="Field" type="text" class="form-control">
+                <span class="text-danger" asp-validation-for="Field"></span>
+            </div>
+            @if (TempData["msg"] != null)
+            {
+                <div class="mb-3">
+                    @TempData["msg"]
+                </div>
+            }
+            <div class="d-flex justify-content-between">
+                <button type="submit" class="btn btn-secondary">Update</button>
+                <a href="/Company/DisplayCompanies" class="btn btn-secondary">Back</a>
+            </div>
+        </form>
+    </div>
+</div>
